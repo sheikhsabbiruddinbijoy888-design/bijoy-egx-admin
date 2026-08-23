@@ -1,0 +1,935 @@
+{
+  "users": [
+    {
+      "id": "EGX343157",
+      "fullName": "EGX Admin",
+      "username": "egxadmin",
+      "email": "joyshakib689@gmail.com",
+      "mobile": "01778999965",
+      "freeFireUid": "109837465",
+      "freeFireIgn": "EGX_MASTER",
+      "whatsapp": "880177899965",
+      "messenger": "https://m.me/egxfftournament",
+      "balance": 480,
+      "totalDeposited": 1000,
+      "totalWinnings": 1200,
+      "totalEntryFees": 220,
+      "totalWithdrawn": 1500,
+      "totalMatches": 9,
+      "totalWins": 4,
+      "role": "ADMIN",
+      "status": "ACTIVE",
+      "account_status": "ACTIVE",
+      "createdAt": "2026-07-23T03:49:43.501Z",
+      "isVerified": true,
+      "is_verified": true,
+      "verificationStatus": "VERIFIED",
+      "password": "##sheikh##bijoy##",
+      "passwordHash": "##sheikh##bijoy##",
+      "verifiedAt": "2026-08-22T10:07:18.166Z"
+    }
+  ],
+  "tournaments": [],
+  "transactions": [
+    {
+      "id": "TRX839850",
+      "userId": "EGX343157",
+      "userEmail": "joyshakib689@gmail.com",
+      "userName": "EGX Admin",
+      "type": "TOURNAMENT_ENTRY",
+      "amount": 20,
+      "balanceAfter": 480,
+      "reference": "Tournament Join: yyyy (#EGX592601)",
+      "status": "COMPLETED",
+      "timestamp": "2026-08-22T07:12:16.127Z"
+    },
+    {
+      "id": "TRX100918",
+      "userId": "EGX343157",
+      "userName": "EGX Admin",
+      "type": "DEPOSIT",
+      "amount": 500,
+      "balanceAfter": 500,
+      "reference": "Admin Initial Balance",
+      "status": "CONFIRMED",
+      "method": "bKash",
+      "senderNumber": "01778999965",
+      "timestamp": "2026-08-20T03:49:43.501Z"
+    }
+  ],
+  "deposits": [],
+  "withdrawals": [],
+  "announcements": [
+    {
+      "id": "ann763212",
+      "title": "fhhffg",
+      "message": "Fguirry",
+      "content": "Fguirry",
+      "type": "WARNING",
+      "targetAudience": "ALL",
+      "isPublished": true,
+      "active": true,
+      "createdAt": "2026-08-22T09:51:47.504Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1787393238926-995",
+      "userId": "EGX343157",
+      "title": "Account Suspended",
+      "message": "Your EGX account has been suspended by administration. Contact support if you believe this is an error.",
+      "type": "ADMIN_ALERT",
+      "isRead": false,
+      "createdAt": "2026-08-22T10:07:18.926Z"
+    },
+    {
+      "id": "notif-1787393238166-690",
+      "userId": "EGX343157",
+      "title": "Profile Verified!",
+      "message": "Congratulations! Your EGX Free Fire tournament profile has been officially verified by Admin.",
+      "type": "ANNOUNCEMENT",
+      "isRead": false,
+      "createdAt": "2026-08-22T10:07:18.166Z"
+    },
+    {
+      "id": "notif-1787393237196-620",
+      "userId": "EGX343157",
+      "title": "Profile Verification Updated",
+      "message": "Your profile verification status has been updated by Admin.",
+      "type": "ANNOUNCEMENT",
+      "isRead": false,
+      "createdAt": "2026-08-22T10:07:17.196Z"
+    },
+    {
+      "id": "notif-1787393236161-560",
+      "userId": "EGX343157",
+      "title": "Profile Verified!",
+      "message": "Congratulations! Your EGX Free Fire tournament profile has been officially verified by Admin.",
+      "type": "ANNOUNCEMENT",
+      "isRead": false,
+      "createdAt": "2026-08-22T10:07:16.161Z"
+    },
+    {
+      "id": "notif-1787393231612-100",
+      "userId": "EGX343157",
+      "title": "Profile Verification Updated",
+      "message": "Your profile verification status has been updated by Admin.",
+      "type": "ANNOUNCEMENT",
+      "isRead": false,
+      "createdAt": "2026-08-22T10:07:11.612Z"
+    },
+    {
+      "id": "notif-1787393229764-439",
+      "userId": "EGX343157",
+      "title": "Profile Verified!",
+      "message": "Congratulations! Your EGX Free Fire tournament profile has been officially verified by Admin.",
+      "type": "ANNOUNCEMENT",
+      "isRead": false,
+      "createdAt": "2026-08-22T10:07:09.764Z"
+    },
+    {
+      "id": "notif-1787393228083-280",
+      "userId": "EGX343157",
+      "title": "Profile Verification Updated",
+      "message": "Your profile verification status has been updated by Admin.",
+      "type": "ANNOUNCEMENT",
+      "isRead": false,
+      "createdAt": "2026-08-22T10:07:08.083Z"
+    },
+    {
+      "id": "notif-1787392342216-296",
+      "userId": "EGX343157",
+      "title": "ghjhhg",
+      "message": "Tuiiiiyrtu",
+      "type": "ALERT",
+      "isRead": true,
+      "createdAt": "2026-08-22T09:52:22.216Z"
+    },
+    {
+      "id": "notif-1787379068626-713",
+      "userId": "EGX343157",
+      "title": "gyu",
+      "message": "Ftyh",
+      "type": "INFO",
+      "isRead": true,
+      "createdAt": "2026-08-22T06:11:08.626Z"
+    },
+    {
+      "id": "notif-1787379051023-784",
+      "userId": "ALL",
+      "title": "Hhjjj",
+      "message": "GUUJ",
+      "type": "INFO",
+      "isRead": true,
+      "createdAt": "2026-08-22T06:10:51.023Z"
+    },
+    {
+      "id": "notif-1",
+      "userId": "ALL",
+      "title": "New Daily Solo Tournament Added",
+      "message": "Solo Prime Clash starting tonight at 08:30 PM with ৳500 prize pool.",
+      "type": "ANNOUNCEMENT",
+      "isRead": true,
+      "createdAt": "2026-08-22T02:49:43.501Z"
+    }
+  ],
+  "categories": [],
+  "banners": [
+    {
+      "id": "ban459881",
+      "type": "video",
+      "mediaType": "video",
+      "url": "/uploads/videos/VID_20260821164059_1787392136033.mp4",
+      "imageUrl": "",
+      "videoUrl": "/uploads/videos/VID_20260821164059_1787392136033.mp4",
+      "title": "",
+      "buttonText": "join tournaments",
+      "buttonLink": "match",
+      "linkUrl": "match",
+      "order": 1,
+      "displayOrder": 1,
+      "isActive": true,
+      "active": true
+    }
+  ],
+  "paymentSettings": {
+    "bkashNumber": "01778999965",
+    "nagadNumber": "01778999965",
+    "rocketNumber": "01778999965",
+    "minDeposit": 20,
+    "minWithdraw": 50,
+    "bkashType": "Personal (Send Money)",
+    "nagadType": "Personal (Send Money)",
+    "rocketType": "Personal (Send Money)",
+    "minWithdrawal": 50
+  },
+  "supportSettings": {
+    "supportVideoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "supportVideoType": "embed",
+    "whatsappNumber": "880177899965",
+    "whatsappLink": "https://wa.me/880177899965",
+    "telegramUsername": "egxffofficial",
+    "telegramLink": "https://t.me/egxffofficial",
+    "isEnabled": true,
+    "telegramChannel": "",
+    "facebookPage": "",
+    "youtubeChannel": "",
+    "supportEmail": "support@egx-tournament.com"
+  },
+  "websiteSettings": {
+    "websiteName": "EGX FF Tournament",
+    "logo": "/logo.png",
+    "favicon": "/favicon.ico",
+    "supportEmail": "joyshakib689@gmail.com",
+    "contactInfo": "+880177899965",
+    "terms": "1. All matches must be played on mobile devices.\n2. Hacks, scripts, or macro users will be permanently banned with wallet forfeiture.\n3. Tournament results are verified before winning disbursement.",
+    "privacyPolicy": "We protect user data and process deposits/withdrawals securely.",
+    "refundPolicy": "If a match is cancelled by EGX FF administration, full entry fees are automatically refunded to your wallet balance.",
+    "musicSettings": {
+      "backgroundMusicUrl": "/uploads/audio/Ride_It__Lyrics__-_Jay_sean____Hindi_Version_MP3_160K__1787391887433.mp3",
+      "musicTitle": "EGX Cyberpunk Tournament Beat",
+      "artistName": "EGX Esports Sound",
+      "autoPlayOnDarkMode": true,
+      "volume": 90,
+      "isEnabled": true,
+      "updatedAt": "2026-08-21T09:02:06.434Z"
+    },
+    "siteName": "EGX FF Tournament",
+    "siteLogo": "/uploads/images/IMG-20260821-WA0020_1787391210796.jpg",
+    "siteFavicon": "/favicon.ico",
+    "footerText": "হিজ",
+    "maintenanceMode": true,
+    "backgroundMusicUrl": "/uploads/audio/Ride_It__Lyrics__-_Jay_sean____Hindi_Version_MP3_160K__1787391887433.mp3",
+    "heroHeading": "EGX FF Competitive Arena",
+    "heroSubheading": "Join daily Free Fire tournaments, clash squads, and win verified cash prizes!",
+    "marqueeText": "🔥 Welcome to EGX FF Tournament — Instant Deposit & Withdrawals 24/7 via bKash, Nagad & Rocket! 🔥",
+    "showLiveCounter": true,
+    "enableVideoBanners": true,
+    "featuredCategory": "Solo"
+  },
+  "musicSettings": {
+    "backgroundMusicUrl": "/uploads/audio/Ride_It__Lyrics__-_Jay_sean____Hindi_Version_MP3_160K__1787391887433.mp3",
+    "musicTitle": "EGX Cyberpunk Tournament Beat",
+    "artistName": "EGX Esports Sound",
+    "autoPlayOnDarkMode": true,
+    "volume": 90,
+    "isEnabled": true,
+    "updatedAt": "2026-08-21T09:02:06.434Z"
+  },
+  "auditLogs": [
+    {
+      "id": "audit-1787394018698-470",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "ADMIN_LOGIN",
+      "targetType": "ADMIN_SESSION",
+      "targetId": "EGX343157",
+      "details": "Admin successfully logged in with full access",
+      "timestamp": "2026-08-22T10:20:18.698Z"
+    },
+    {
+      "id": "audit-1787394008514-807",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "ADMIN_LOGIN",
+      "targetType": "ADMIN_SESSION",
+      "targetId": "EGX343157",
+      "details": "Secret Admin login via main authentication modal",
+      "timestamp": "2026-08-22T10:20:08.514Z"
+    },
+    {
+      "id": "audit-1787393786659-510",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "ADMIN_LOGIN",
+      "targetType": "ADMIN_SESSION",
+      "targetId": "EGX343157",
+      "details": "Secret Admin login via main authentication modal",
+      "timestamp": "2026-08-22T10:16:26.659Z"
+    },
+    {
+      "id": "audit-1787393761299-453",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "ADMIN_LOGIN",
+      "targetType": "ADMIN_SESSION",
+      "targetId": "EGX343157",
+      "details": "Admin successfully logged in with full access",
+      "timestamp": "2026-08-22T10:16:01.299Z"
+    },
+    {
+      "id": "audit-1787393365247-308",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "ADMIN_LOGIN",
+      "targetType": "ADMIN_SESSION",
+      "targetId": "EGX343157",
+      "details": "Admin successfully logged in with full access",
+      "timestamp": "2026-08-22T10:09:25.247Z"
+    },
+    {
+      "id": "audit-1787393352092-947",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "ADMIN_LOGIN",
+      "targetType": "ADMIN_SESSION",
+      "targetId": "EGX343157",
+      "details": "Admin successfully logged in with full access",
+      "timestamp": "2026-08-22T10:09:12.092Z"
+    },
+    {
+      "id": "audit-1787393238926-828",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "USER_SUSPEND",
+      "targetType": "USER",
+      "targetId": "EGX343157",
+      "details": "SUSPENDED user EGX Admin (@egxadmin, joyshakib689@gmail.com)",
+      "timestamp": "2026-08-22T10:07:18.926Z"
+    },
+    {
+      "id": "audit-1787393238166-399",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "USER_VERIFY",
+      "targetType": "USER",
+      "targetId": "EGX343157",
+      "details": "Verified Profile for EGX Admin (@egxadmin, joyshakib689@gmail.com)",
+      "timestamp": "2026-08-22T10:07:18.166Z"
+    },
+    {
+      "id": "audit-1787393237196-978",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "USER_VERIFY",
+      "targetType": "USER",
+      "targetId": "EGX343157",
+      "details": "Unverified Profile for EGX Admin (@egxadmin, joyshakib689@gmail.com)",
+      "timestamp": "2026-08-22T10:07:17.196Z"
+    },
+    {
+      "id": "audit-1787393236161-241",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "USER_VERIFY",
+      "targetType": "USER",
+      "targetId": "EGX343157",
+      "details": "Verified Profile for EGX Admin (@egxadmin, joyshakib689@gmail.com)",
+      "timestamp": "2026-08-22T10:07:16.161Z"
+    },
+    {
+      "id": "audit-1787393231612-557",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "USER_VERIFY",
+      "targetType": "USER",
+      "targetId": "EGX343157",
+      "details": "Unverified Profile for EGX Admin (@egxadmin, joyshakib689@gmail.com)",
+      "timestamp": "2026-08-22T10:07:11.612Z"
+    },
+    {
+      "id": "audit-1787393229764-960",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "USER_VERIFY",
+      "targetType": "USER",
+      "targetId": "EGX343157",
+      "details": "Verified Profile for EGX Admin (@egxadmin, joyshakib689@gmail.com)",
+      "timestamp": "2026-08-22T10:07:09.764Z"
+    },
+    {
+      "id": "audit-1787393228083-880",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "USER_VERIFY",
+      "targetType": "USER",
+      "targetId": "EGX343157",
+      "details": "Unverified Profile for EGX Admin (@egxadmin, joyshakib689@gmail.com)",
+      "timestamp": "2026-08-22T10:07:08.083Z"
+    },
+    {
+      "id": "audit-1787392650668-182",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "USER_HARD_DELETE",
+      "targetType": "USER",
+      "targetId": "EGX892011",
+      "details": "Permanently purged user Rakib Hassan (@rakib_gamer, player@test.com) and all cascade records.",
+      "timestamp": "2026-08-22T09:57:30.668Z"
+    },
+    {
+      "id": "audit-1787392342216-240",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "NOTIFICATION_DISPATCH",
+      "targetType": "NOTIFICATION",
+      "targetId": "EGX343157",
+      "details": "Sent notification: \"ghjhhg\" to EGX343157",
+      "timestamp": "2026-08-22T09:52:22.216Z"
+    },
+    {
+      "id": "audit-1787392310457-447",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "ANNOUNCEMENT_DELETE",
+      "targetType": "ANNOUNCEMENT",
+      "targetId": "ann-1",
+      "details": "Deleted announcement WELCOME TO EGX FF TOURNAMENT",
+      "timestamp": "2026-08-22T09:51:50.457Z"
+    },
+    {
+      "id": "audit-1787392307504-517",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "ANNOUNCEMENT_CREATE",
+      "targetType": "ANNOUNCEMENT",
+      "targetId": "ann763212",
+      "details": "Created announcement fhhffg",
+      "timestamp": "2026-08-22T09:51:47.504Z"
+    },
+    {
+      "id": "audit-1787392233378-963",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "BANNER_UPDATE",
+      "targetType": "HOMEPAGE",
+      "targetId": "ban459881",
+      "details": "Updated banner ban459881",
+      "timestamp": "2026-08-22T09:50:33.378Z"
+    },
+    {
+      "id": "audit-1787392140997-836",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "BANNER_CREATE",
+      "targetType": "HOMEPAGE",
+      "targetId": "ban459881",
+      "details": "Created banner: ban459881",
+      "timestamp": "2026-08-22T09:49:00.997Z"
+    },
+    {
+      "id": "audit-1787392106735-144",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "BANNER_DELETE",
+      "targetType": "HOMEPAGE",
+      "targetId": "banner-1",
+      "details": "Deleted banner Free Fire Tournament",
+      "timestamp": "2026-08-22T09:48:26.735Z"
+    },
+    {
+      "id": "audit-1787391996372-508",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "BANNER_DELETE",
+      "targetType": "HOMEPAGE",
+      "targetId": "ban246529",
+      "details": "Deleted banner yeyeeg",
+      "timestamp": "2026-08-22T09:46:36.372Z"
+    },
+    {
+      "id": "audit-1787391991911-105",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "BANNER_DELETE",
+      "targetType": "HOMEPAGE",
+      "targetId": "banner-2",
+      "details": "Deleted banner Duo Masters Championship",
+      "timestamp": "2026-08-22T09:46:31.911Z"
+    },
+    {
+      "id": "audit-1787391965009-758",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "SYSTEM_SETTINGS_UPDATE",
+      "targetType": "SETTINGS",
+      "targetId": "GENERAL",
+      "details": "Updated system settings",
+      "timestamp": "2026-08-22T09:46:05.009Z"
+    },
+    {
+      "id": "audit-1787391651482-613",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "CATEGORY_DELETE",
+      "targetType": "CATEGORY",
+      "targetId": "cat-solo",
+      "details": "Deleted category Solo",
+      "timestamp": "2026-08-22T09:40:51.482Z"
+    },
+    {
+      "id": "audit-1787391650270-124",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "CATEGORY_DELETE",
+      "targetType": "CATEGORY",
+      "targetId": "cat-duo",
+      "details": "Deleted category Duo",
+      "timestamp": "2026-08-22T09:40:50.270Z"
+    },
+    {
+      "id": "audit-1787391648869-974",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "CATEGORY_DELETE",
+      "targetType": "CATEGORY",
+      "targetId": "cat-lonewolf",
+      "details": "Deleted category 2v2 Lone Wolf",
+      "timestamp": "2026-08-22T09:40:48.869Z"
+    },
+    {
+      "id": "audit-1787391646787-764",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "CATEGORY_DELETE",
+      "targetType": "CATEGORY",
+      "targetId": "cat-squad",
+      "details": "Deleted category Classic Squad",
+      "timestamp": "2026-08-22T09:40:46.787Z"
+    },
+    {
+      "id": "audit-1787391644937-669",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "CATEGORY_DELETE",
+      "targetType": "CATEGORY",
+      "targetId": "cat-br",
+      "details": "Deleted category BR Match",
+      "timestamp": "2026-08-22T09:40:44.937Z"
+    },
+    {
+      "id": "audit-1787391523170-798",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "TOURNAMENT_HARD_DELETE",
+      "targetType": "TOURNAMENT",
+      "targetId": "EGX2608195111",
+      "details": "Permanently deleted tournament: 2v2 Lone Wolf Blitz (#EGX2608195111) with 0 participants.",
+      "timestamp": "2026-08-22T09:38:43.170Z"
+    },
+    {
+      "id": "audit-1787391516680-11",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "TOURNAMENT_HARD_DELETE",
+      "targetType": "TOURNAMENT",
+      "targetId": "EGX2608195999",
+      "details": "Permanently deleted tournament: Mega BR Bermuda 48 Grand Match (#EGX2608195999) with 0 participants.",
+      "timestamp": "2026-08-22T09:38:36.680Z"
+    },
+    {
+      "id": "audit-1787391506388-925",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "TOURNAMENT_HARD_DELETE",
+      "targetType": "TOURNAMENT",
+      "targetId": "EGX2608195251",
+      "details": "Permanently deleted tournament: Classic Squad Championship #42 (#EGX2608195251) with 0 participants.",
+      "timestamp": "2026-08-22T09:38:26.388Z"
+    },
+    {
+      "id": "audit-1787391495183-468",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "TOURNAMENT_HARD_DELETE",
+      "targetType": "TOURNAMENT",
+      "targetId": "EGX2608159814",
+      "details": "Permanently deleted tournament: Duo Prime Clash | Duo Masters (#EGX2608159814) with 0 participants.",
+      "timestamp": "2026-08-22T09:38:15.183Z"
+    },
+    {
+      "id": "audit-1787391486275-211",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "TOURNAMENT_HARD_DELETE",
+      "targetType": "TOURNAMENT",
+      "targetId": "EGX2608195736",
+      "details": "Permanently deleted tournament: Solo Prime Clash | Mobile (#EGX2608195736) with 2 participants.",
+      "timestamp": "2026-08-22T09:38:06.276Z"
+    },
+    {
+      "id": "audit-1787391478253-317",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "TOURNAMENT_HARD_DELETE",
+      "targetType": "TOURNAMENT",
+      "targetId": "EGX592601",
+      "details": "Permanently deleted tournament: yyyy (#EGX592601) with 1 participants.",
+      "timestamp": "2026-08-22T09:37:58.253Z"
+    },
+    {
+      "id": "audit-1787391468634-186",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "TOURNAMENT_HARD_DELETE",
+      "targetType": "TOURNAMENT",
+      "targetId": "EGX489770",
+      "details": "Permanently deleted tournament: gdhdhdh (#EGX489770) with 0 participants.",
+      "timestamp": "2026-08-22T09:37:48.634Z"
+    },
+    {
+      "id": "audit-1787391225560-200",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "SYSTEM_SETTINGS_UPDATE",
+      "targetType": "SETTINGS",
+      "targetId": "GENERAL",
+      "details": "Updated system settings",
+      "timestamp": "2026-08-22T09:33:45.560Z"
+    },
+    {
+      "id": "audit-1787391224608-769",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "SYSTEM_SETTINGS_UPDATE",
+      "targetType": "SETTINGS",
+      "targetId": "GENERAL",
+      "details": "Updated system settings",
+      "timestamp": "2026-08-22T09:33:44.608Z"
+    },
+    {
+      "id": "audit-1787391220319-23",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "SYSTEM_SETTINGS_UPDATE",
+      "targetType": "SETTINGS",
+      "targetId": "GENERAL",
+      "details": "Updated system settings",
+      "timestamp": "2026-08-22T09:33:40.319Z"
+    },
+    {
+      "id": "audit-1787391218209-847",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "SYSTEM_SETTINGS_UPDATE",
+      "targetType": "SETTINGS",
+      "targetId": "GENERAL",
+      "details": "Updated system settings",
+      "timestamp": "2026-08-22T09:33:38.209Z"
+    },
+    {
+      "id": "audit-1787390983520-358",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "TOURNAMENT_EDIT",
+      "targetType": "TOURNAMENT",
+      "targetId": "EGX489770",
+      "details": "Updated tournament: gdhdhdh",
+      "timestamp": "2026-08-22T09:29:43.520Z"
+    },
+    {
+      "id": "audit-1787390972085-336",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "TOURNAMENT_EDIT",
+      "targetType": "TOURNAMENT",
+      "targetId": "EGX489770",
+      "details": "Updated tournament: gdhdhdh",
+      "timestamp": "2026-08-22T09:29:32.085Z"
+    },
+    {
+      "id": "audit-1787390855699-251",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "TOURNAMENT_EDIT",
+      "targetType": "TOURNAMENT",
+      "targetId": "EGX489770",
+      "details": "Updated tournament: gdhdhdh",
+      "timestamp": "2026-08-22T09:27:35.699Z"
+    },
+    {
+      "id": "audit-1787390747936-528",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "TOURNAMENT_EDIT",
+      "targetType": "TOURNAMENT",
+      "targetId": "EGX489770",
+      "details": "Updated tournament: gdhdhdh",
+      "timestamp": "2026-08-22T09:25:47.936Z"
+    },
+    {
+      "id": "audit-1787390618018-940",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "TOURNAMENT_EDIT",
+      "targetType": "TOURNAMENT",
+      "targetId": "EGX489770",
+      "details": "Updated tournament: gdhdhdh",
+      "timestamp": "2026-08-22T09:23:38.018Z"
+    },
+    {
+      "id": "audit-1787390431487-567",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "TOURNAMENT_CREATE",
+      "targetType": "TOURNAMENT",
+      "targetId": "EGX489770",
+      "details": "Created tournament: gdhdhdh (Classic Squad)",
+      "timestamp": "2026-08-22T09:20:31.487Z"
+    },
+    {
+      "id": "audit-1787390061824-637",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "ADMIN_LOGIN",
+      "targetType": "ADMIN_SESSION",
+      "targetId": "EGX343157",
+      "details": "Secret Admin login via main authentication modal",
+      "timestamp": "2026-08-22T09:14:21.824Z"
+    },
+    {
+      "id": "audit-1787389465285-649",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "ADMIN_LOGIN",
+      "targetType": "ADMIN_SESSION",
+      "targetId": "EGX343157",
+      "details": "Secret Admin login via main authentication modal",
+      "timestamp": "2026-08-22T09:04:25.285Z"
+    },
+    {
+      "id": "audit-1787384211459-260",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "ROOM_CREDENTIALS_SET",
+      "targetType": "TOURNAMENT",
+      "targetId": "EGX592601",
+      "details": "Set Room ID: গিওজগ for yyyy (1 players notified)",
+      "timestamp": "2026-08-22T07:36:51.459Z"
+    },
+    {
+      "id": "audit-1787379158781-685",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "ROOM_CREDENTIALS_SET",
+      "targetType": "TOURNAMENT",
+      "targetId": "EGX592601",
+      "details": "Set Room ID: 828227 for yyyy (0 players notified)",
+      "timestamp": "2026-08-22T06:12:38.781Z"
+    },
+    {
+      "id": "audit-1787379152660-880",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "ROOM_CREDENTIALS_SET",
+      "targetType": "TOURNAMENT",
+      "targetId": "EGX592601",
+      "details": "Set Room ID: 828227 for yyyy (0 players notified)",
+      "timestamp": "2026-08-22T06:12:32.660Z"
+    },
+    {
+      "id": "audit-1787379150796-922",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "ROOM_CREDENTIALS_SET",
+      "targetType": "TOURNAMENT",
+      "targetId": "EGX592601",
+      "details": "Set Room ID: 828227 for yyyy (0 players notified)",
+      "timestamp": "2026-08-22T06:12:30.796Z"
+    },
+    {
+      "id": "audit-1787379145718-975",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "ROOM_CREDENTIALS_SET",
+      "targetType": "TOURNAMENT",
+      "targetId": "EGX592601",
+      "details": "Set Room ID: 828227 for yyyy (0 players notified)",
+      "timestamp": "2026-08-22T06:12:25.718Z"
+    },
+    {
+      "id": "audit-1787379068626-430",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "NOTIFICATION_DISPATCH",
+      "targetType": "NOTIFICATION",
+      "targetId": "EGX343157",
+      "details": "Sent notification: \"gyu\" to EGX343157",
+      "timestamp": "2026-08-22T06:11:08.626Z"
+    },
+    {
+      "id": "audit-1787379051023-273",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "NOTIFICATION_DISPATCH",
+      "targetType": "NOTIFICATION",
+      "targetId": "ALL",
+      "details": "Sent notification: \"Hhjjj\" to ALL",
+      "timestamp": "2026-08-22T06:10:51.023Z"
+    },
+    {
+      "id": "audit-1787378055514-308",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "BANNER_UPDATE",
+      "targetType": "HOMEPAGE",
+      "targetId": "banner-1",
+      "details": "Updated banner Free Fire Tournament",
+      "timestamp": "2026-08-22T05:54:15.514Z"
+    },
+    {
+      "id": "audit-1787370912556-218",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "BANNER_CREATE",
+      "targetType": "HOMEPAGE",
+      "targetId": "ban246529",
+      "details": "Created banner: yeyeeg",
+      "timestamp": "2026-08-22T03:55:12.556Z"
+    },
+    {
+      "id": "audit-1787370844497-368",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "TOURNAMENT_EDIT",
+      "targetType": "TOURNAMENT",
+      "targetId": "EGX592601",
+      "details": "Updated tournament: yyyy",
+      "timestamp": "2026-08-22T03:54:04.497Z"
+    },
+    {
+      "id": "audit-1787370793891-929",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "TOURNAMENT_EDIT",
+      "targetType": "TOURNAMENT",
+      "targetId": "EGX592601",
+      "details": "Updated tournament: yyyy",
+      "timestamp": "2026-08-22T03:53:13.892Z"
+    },
+    {
+      "id": "audit-1787370748469-296",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "TOURNAMENT_CREATE",
+      "targetType": "TOURNAMENT",
+      "targetId": "EGX592601",
+      "details": "Created tournament: yyyy (BR Match)",
+      "timestamp": "2026-08-22T03:52:28.469Z"
+    },
+    {
+      "id": "audit-1",
+      "adminId": "EGX343157",
+      "adminEmail": "joyshakib689@gmail.com",
+      "action": "SYSTEM_BOOTSTRAP",
+      "targetType": "SYSTEM",
+      "targetId": "ALL",
+      "details": "EGX FF Tournament platform initialized successfully.",
+      "timestamp": "2026-08-21T03:49:43.501Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "tok_1787370625698_g827dkz",
+      "userId": "EGX343157",
+      "role": "ADMIN",
+      "createdAt": "2026-08-22T03:50:25.699Z"
+    },
+    {
+      "token": "tok_1787371037392_j9kpqj8",
+      "userId": "EGX343157",
+      "role": "ADMIN",
+      "createdAt": "2026-08-22T03:57:17.392Z"
+    },
+    {
+      "token": "tok_1787376250540_m1wuevn",
+      "userId": "EGX343157",
+      "role": "ADMIN",
+      "createdAt": "2026-08-22T05:24:10.540Z"
+    },
+    {
+      "token": "tok_1787380645336_k1y4uky",
+      "userId": "EGX343157",
+      "role": "ADMIN",
+      "createdAt": "2026-08-22T06:37:25.336Z"
+    },
+    {
+      "token": "adm_1787389465284_r82oyei",
+      "userId": "EGX343157",
+      "role": "ADMIN",
+      "createdAt": "2026-08-22T09:04:25.284Z"
+    },
+    {
+      "token": "adm_1787390061824_iy30dxo",
+      "userId": "EGX343157",
+      "role": "ADMIN",
+      "createdAt": "2026-08-22T09:14:21.824Z"
+    },
+    {
+      "token": "adm_1787393352092_do0bfy3",
+      "userId": "EGX343157",
+      "role": "ADMIN",
+      "createdAt": "2026-08-22T10:09:12.092Z"
+    },
+    {
+      "token": "adm_1787393365247_9ilc51l",
+      "userId": "EGX343157",
+      "role": "ADMIN",
+      "createdAt": "2026-08-22T10:09:25.247Z"
+    },
+    {
+      "token": "adm_1787393761298_jzag890",
+      "userId": "EGX343157",
+      "role": "ADMIN",
+      "createdAt": "2026-08-22T10:16:01.298Z"
+    },
+    {
+      "token": "adm_1787393786657_9juqrl9",
+      "userId": "EGX343157",
+      "role": "ADMIN",
+      "createdAt": "2026-08-22T10:16:26.657Z"
+    },
+    {
+      "token": "adm_1787394008514_hqt4wxv",
+      "userId": "EGX343157",
+      "role": "ADMIN",
+      "createdAt": "2026-08-22T10:20:08.514Z"
+    },
+    {
+      "token": "adm_1787394018698_z490ujc",
+      "userId": "EGX343157",
+      "role": "ADMIN",
+      "createdAt": "2026-08-22T10:20:18.698Z"
+    }
+  ]
+}

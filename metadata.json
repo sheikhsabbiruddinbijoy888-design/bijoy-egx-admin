@@ -1,0 +1,6 @@
+{
+  "name": "EGX FF Tournament",
+  "description": "Full-Stack Free Fire Tournament Platform with Match Schedules, Real-Time Wallet, Cash Prizes, and Instant Mobile Payments for Bangladesh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

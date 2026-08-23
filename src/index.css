@@ -1,0 +1,228 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ==========================================================================
+   GLOBAL THEME CSS VARIABLES & CYBER OBSIDIAN PALETTE
+   ========================================================================== */
+:root {
+  --app-bg: #F8FAFC;
+  --app-text: #10213A;
+  --card-bg: #FFFFFF;
+  --card-border: #DCE8F7;
+  --cyan-glow: rgba(0, 240, 255, 0.2);
+}
+
+.dark, html.dark, body.dark {
+  --app-bg: #080C14;
+  --app-text: #FFFFFF;
+  --card-bg: #111827;
+  --card-border: #1E293B;
+  --cyan-glow: rgba(0, 240, 255, 0.35);
+  color-scheme: dark;
+}
+
+html.dark body, body.dark {
+  background-color: #080C14 !important;
+  color: #FFFFFF !important;
+}
+
+html:not(.dark) body {
+  background-color: #F8FAFC !important;
+  color: #10213A !important;
+}
+
+@layer utilities {
+  /* Neon Ambient Glows */
+  .dark-glow-cyan {
+    box-shadow: 0 0 25px 0 rgba(0, 240, 255, 0.4);
+  }
+  .dark-glow-blue {
+    box-shadow: 0 0 25px 0 rgba(37, 99, 235, 0.4);
+  }
+  .dark-glow-purple {
+    box-shadow: 0 0 20px 0 rgba(139, 92, 246, 0.3);
+  }
+
+  /* Cyber Neon Admin Button Pulse & Shimmer */
+  @keyframes neon-admin-pulse {
+    0%, 100% {
+      box-shadow: 0 0 20px rgba(0, 240, 255, 0.6), 0 0 40px rgba(139, 92, 246, 0.4), inset 0 0 15px rgba(255, 255, 255, 0.2);
+    }
+    50% {
+      box-shadow: 0 0 35px rgba(0, 240, 255, 0.85), 0 0 60px rgba(139, 92, 246, 0.6), inset 0 0 25px rgba(255, 255, 255, 0.35);
+    }
+  }
+
+  @keyframes shimmer-slide {
+    0% {
+      transform: translateX(-150%) skewX(-25deg);
+    }
+    100% {
+      transform: translateX(250%) skewX(-25deg);
+    }
+  }
+
+  .animate-neon-admin-glow {
+    animation: neon-admin-pulse 2.5s ease-in-out infinite;
+  }
+
+  .animate-shimmer-sweep {
+    animation: shimmer-slide 3s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  }
+
+  /* Traveling Electric Blue Neon Border Glow Keyframes */
+  @keyframes neon-border-travel {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .animate-neon-border {
+    animation: neon-border-travel 4s linear infinite;
+    will-change: transform;
+  }
+
+  .dark .electric-neon-card {
+    box-shadow: 0 0 25px rgba(0, 240, 255, 0.4), 0 0 10px rgba(0, 240, 255, 0.2);
+  }
+
+  /* Modern Premium eSports Button Styles */
+  .btn-primary {
+    @apply relative inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl font-extrabold text-sm text-white tracking-wide transition-all duration-200 cursor-pointer overflow-hidden select-none;
+    background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 50%, #1e40af 100%);
+    box-shadow: 0 4px 14px 0 rgba(37, 99, 235, 0.35), inset 0 1px 0 0 rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  .btn-primary:hover:not(:disabled) {
+    background: linear-gradient(135deg, #2563eb 0%, #3b82f6 50%, #1d4ed8 100%);
+    box-shadow: 0 6px 20px 0 rgba(37, 99, 235, 0.5), inset 0 1px 0 0 rgba(255, 255, 255, 0.4);
+    transform: translateY(-1px) scale(1.01);
+  }
+  .btn-primary:active:not(:disabled) {
+    transform: translateY(1px) scale(0.98);
+    box-shadow: 0 2px 8px 0 rgba(37, 99, 235, 0.3), inset 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  }
+  .btn-primary:disabled {
+    @apply opacity-50 cursor-not-allowed transform-none shadow-none;
+  }
+
+  .btn-secondary {
+    @apply relative inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl font-bold text-sm text-slate-700 bg-white dark:bg-slate-800 dark:text-slate-200 border border-slate-200/80 dark:border-slate-700 transition-all duration-200 cursor-pointer shadow-xs select-none;
+  }
+  .btn-secondary:hover:not(:disabled) {
+    @apply bg-slate-50 dark:bg-slate-700 border-blue-300 dark:border-slate-600 text-blue-700 dark:text-white shadow-md;
+    transform: translateY(-1px);
+  }
+  .btn-secondary:active:not(:disabled) {
+    @apply bg-slate-100 dark:bg-slate-700;
+    transform: translateY(1px) scale(0.98);
+  }
+
+  .btn-success {
+    @apply relative inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl font-extrabold text-sm text-white tracking-wide transition-all duration-200 cursor-pointer overflow-hidden select-none;
+    background: linear-gradient(135deg, #059669 0%, #10b981 50%, #047857 100%);
+    box-shadow: 0 4px 14px 0 rgba(16, 185, 129, 0.35), inset 0 1px 0 0 rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  .btn-success:hover:not(:disabled) {
+    background: linear-gradient(135deg, #10b981 0%, #34d399 50%, #059669 100%);
+    box-shadow: 0 6px 20px 0 rgba(16, 185, 129, 0.5);
+    transform: translateY(-1px) scale(1.01);
+  }
+  .btn-success:active:not(:disabled) {
+    transform: translateY(1px) scale(0.98);
+  }
+
+  .btn-danger {
+    @apply relative inline-flex items-center justify-center gap-2 px-4 py-2 rounded-xl font-bold text-sm text-rose-600 bg-rose-50 dark:bg-rose-950/40 dark:text-rose-400 border border-rose-200 dark:border-rose-900/50 transition-all duration-200 cursor-pointer select-none;
+  }
+  .btn-danger:hover:not(:disabled) {
+    @apply bg-rose-600 text-white border-rose-600 shadow-md shadow-rose-600/30;
+    transform: translateY(-1px);
+  }
+  .btn-danger:active:not(:disabled) {
+    transform: translateY(1px) scale(0.98);
+  }
+
+  .btn-accent {
+    @apply relative inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl font-extrabold text-sm text-blue-900 dark:text-blue-200 bg-blue-50 dark:bg-blue-950/40 border border-blue-200 dark:border-blue-800 transition-all duration-200 cursor-pointer select-none;
+  }
+  .btn-accent:hover:not(:disabled) {
+    @apply bg-blue-100/80 dark:bg-blue-900/60 border-blue-300 dark:border-blue-700 shadow-sm text-blue-950 dark:text-white;
+    transform: translateY(-1px);
+  }
+  .btn-accent:active:not(:disabled) {
+    transform: translateY(1px) scale(0.98);
+  }
+
+  /* Interactive card hover */
+  .interactive-card {
+    @apply transition-all duration-300 ease-out border border-blue-100/80 dark:border-slate-800 hover:border-blue-300/80 dark:hover:border-cyan-500/50 hover:shadow-xl hover:shadow-blue-500/5 dark:hover:shadow-[0_0_20px_rgba(0,240,255,0.15)] hover:-translate-y-0.5;
+  }
+
+  /* Glow Pulse */
+  .glow-blue {
+    box-shadow: 0 0 25px -5px rgba(59, 130, 246, 0.4);
+  }
+
+  .glow-emerald {
+    box-shadow: 0 0 25px -5px rgba(16, 185, 129, 0.4);
+  }
+
+  .glow-cyan {
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.35);
+  }
+
+  /* Glass backdrop */
+  .glass-card {
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+  .dark .glass-card {
+    background: rgba(17, 24, 39, 0.92);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+.dark ::-webkit-scrollbar-track {
+  background: #0B0F19;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #1E293B;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* ডিফল্ট যে ছোট ড্রপডাউন বক্সটি চলে আসছে সেটিকে পার্মানেন্টলি হাইড করার জন্য */
+.profile-dropdown, 
+[class*="dropdown-menu"], 
+.user-menu-popup {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
